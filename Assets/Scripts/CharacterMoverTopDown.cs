@@ -30,9 +30,9 @@ public class CharacterMoverTopDown : MonoBehaviour
 
     public void Move(Vector2 movement)
     {
-        movement.x *= horizontalMoveSpeed;
-        movement.y *= verticalMoveSpeed;
+        movement.x *= horizontalMoveSpeed * Time.deltaTime;
+        movement.y *= verticalMoveSpeed * Time.deltaTime;
 
-        rigidbody2D.MovePosition(rigidbody2D.position + movement * Time.deltaTime);
+        rigidbody2D.MovePosition(rigidbody2D.position + movement);
     }
 }

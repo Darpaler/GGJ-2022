@@ -37,7 +37,13 @@ public class LevelManager : MonoBehaviour
     {
         Debug.Log("Level Cleared.");
         // Loads the next scene by build index.
-        if(SceneManager.GetActiveScene().buildIndex != SceneManager.sceneCountInBuildSettings - 1)
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if(SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings - 1)
+        {
+            SceneManager.LoadScene("Main_Menu");
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 }
