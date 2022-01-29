@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main_Menu.unity
+    guid: 5b8c48c913c6a8142b39101d9f2ff9cb
+  - enabled: 1
+    path: Assets/Scenes/Options.unity
+    guid: a50a019155914c44e91206865201cc84
+  - enabled: 1
+    path: Assets/Scenes/About.unity
+    guid: a4e2acb422ffc1a40adcd529c46b6ea9
+  - enabled: 1
     path: Assets/Scenes/Duality_1-1.unity
     guid: ede760369cd3a514e9f9ef669ac86a74
   - enabled: 1
