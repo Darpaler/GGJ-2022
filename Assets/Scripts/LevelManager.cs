@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
 {
     [SerializeField] private GoalVictory[] GoalZones;
@@ -27,7 +27,17 @@ public class LevelManager : MonoBehaviour
             }
         }
 
+        
+
         //Else all goals succeed
-        Debug.Log("You won!");
+        OnLevelSuccess();
+    }
+
+    public void OnLevelSuccess()
+    {
+        Debug.Log("Level Cleared.");
+        // Loads the next scene by build index.
+        if(SceneManager.GetActiveScene().buildIndex != SceneManager.sceneCountInBuildSettings - 1)
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
