@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Duality_1-4.unity
     guid: 877951f674d358c439ffa542a7c2c5f4
+  - enabled: 1
+    path: Assets/Scenes/Duality_1-5.unity
+    guid: 8c0b49549c339ac40b9fe5d7353c0fe7
   m_configObjects: {}
