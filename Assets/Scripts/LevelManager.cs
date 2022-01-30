@@ -39,7 +39,7 @@ public class LevelManager : MonoBehaviour
         // Loads the next scene by build index.
         if(SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings - 1)
         {
-            SceneManager.LoadScene("Main_Menu");
+            SceneManager.LoadScene("Win_Screen");
         }
         else
         {

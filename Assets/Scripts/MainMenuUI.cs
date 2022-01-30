@@ -8,6 +8,7 @@ public class MainMenuUI : MonoBehaviour
     public void OnPlay(string gameSceneName)
     {
         SceneManager.LoadScene(gameSceneName);
+        GameManager.instance.gameStartTime = Time.time;
     }
 
     public void OnOptions()
