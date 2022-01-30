@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/About.unity
     guid: a4e2acb422ffc1a40adcd529c46b6ea9
   - enabled: 1
+    path: Assets/Scenes/Win_Screen.unity
+    guid: ab15cd95f04ee354b80cc14afd8693a1
+  - enabled: 1
     path: Assets/Scenes/Duality_1-1.unity
     guid: ede760369cd3a514e9f9ef669ac86a74
   - enabled: 1
@@ -23,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Duality_1-3.unity
     guid: c7a93a63534f0ed45b5dc5d910974484
+  - enabled: 1
+    path: Assets/Scenes/Duality_1-4.unity
+    guid: 877951f674d358c439ffa542a7c2c5f4
   m_configObjects: {}
